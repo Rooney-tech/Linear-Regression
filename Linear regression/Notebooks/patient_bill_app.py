@@ -18,7 +18,7 @@ def load_model():
     model_path = Path(__file__).parent / "Linear_regression.joblib"
     if not model_path.exists():
         # Fallback to your local absolute path (only works on your machine)
-        model_path = Path(r"C:\Users\odago\OneDrive\Python Programming\Machine Learning\Libraries\Machine Learning\Libraries\Streamlit\Linear Regression\Linear-Regression\Linear regression\Notebooks\Linear_regression.joblib")
+        model_path = Path(r"C:\Users\DELL\OneDrive\Python Programming\Machine Learning\Libraries\Machine Learning\Libraries\Streamlit\Linear Regression\Linear-Regression\Linear regression\Notebooks\Linear_regression.joblib")
     if not model_path.exists():
         st.error("❌ Model 'Linear_regression.joblib' not found in expected locations.")
         st.stop()
